@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#everything {
+	width: 100%;
+	height: 100%;
+}
+
+/*icomoon fonts*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('Fonts/icomoon.eot?ku65gy');
+  src:  url('Fonts/icomoon.eot?ku65gy#iefix') format('embedded-opentype'),
+    url('Fonts/icomoon.ttf?ku65gy') format('truetype'),
+    url('Fonts/icomoon.woff?ku65gy') format('woff'),
+    url('Fonts/icomoon.svg?ku65gy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube:before {
+  content: "\e902";
+  font-size: 150px;
+}
+.icon-twitter:before {
+  content: "\e903";
+  font-size: 150px;
+  margin-right: 2%;
+}
+.icon-tumblr:before {
+  content: "\e904";
+  font-size: 150px;
+  margin-right: 2%;
+}
+.icon-snapchat:before {
+  content: "\e905";
+  font-size: 150px;
+  margin-right: 2%;
+}
+.icon-reddit:before {
+  content: "\e906";
+  font-size: 150px;
+  margin-right: 2%;
+}
+.icon-insta:before {
+  content: "\e901";
+  font-size: 150px;
+  margin-right: 2%;
+}
+.icon-fb:before {
+  content: "\e900";
+  font-size: 150px;
+  margin-right: 2%;
+}
+
+/*end icomoon fonts*/
+
+#socialmedia {
+	position: absolute;
+	bottom: 21%;
+	width: 75%;
+	left: 13%;
+	right: 11%;
+
+}
+
+/*icomoon styling for links*/
+
+
+a.icon:link {
+	text-decoration: none; 
+	color: white;
+}
+
+
+a.icon:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a.icon:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+/*ends icomoon styling links*/
+
+/*title*/
+
+.title {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+}
+
+h1 {
+	font-size: 115px;
+	font-family: "Raleway", Arial;
+	color: white;
+	height: 50px;
+	text-align: center;
+
+	
+}
+
+h3 {
+	font-size: 20px;
+	font-family: "Raleway", Arial;
+	color: white;
+	text-align: center;
+}
+/*ends title*/
+
+/*navbar top*/
+
+#navbartop {
+	margin: 0px;
+	padding-top: 0px;
+	padding: 0px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	opacity: .9;
+	background-color: white;
+	height: 50px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%
+    background-color: #f1f1f1;
+    height: 30px;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	height: 50px;
+}
+
+/*navbar right*/
+
+.fltright a:link {
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+
+.fltright a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.fltright a:hover {
+	background-color: black;
+	text-decoration: none;
+	color: white;
+	height: 50px;
+	padding-top: 17px;
+	padding-bottom: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.fltright {
+	float: right;
+	padding-left: 5%;
+	padding-right: 1%;
+	padding-top: 16px;
+}
+
+/*ends navbar right*/
+/*navbar left*/
+
+.fltleft {
+	float: left;
+	padding-left: 3%;
+	padding-top: 7px;
+}
+
+.fltleft a:link {
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+
+.fltleft a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.fltleft a:hover {
+	text-decoration: none;
+}
+
+/*ends navbar top*/
+
+/*navbar mid*/
+
+#navbarmid {
+	position: absolute;
+	top: 45%;
+	padding: 0px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	opacity: .9;
+	background-color: white;
+	height: 50px;
+}
+
+/*end navbar mid*/
+
+/*navbar mid styling*/
+
+.center {
+	float: left;
+	padding-left: 5.5%;
+	padding-right: 5.5%;
+	padding-top: 16px;
+}
+
+.center a:link {
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+
+.center a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.center a:hover {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding-top: 17px;
+	padding-bottom: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/*ends navbar mid styling*/
+
+/*navbar bottom*/
+
+#navbarbottom {
+	position: absolute;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+	opacity: .9;
+	background-color: white;
+	height: 70px;
+}
+
+/*ends navbar bottom*/
+
+/*navbar bottom styling*/
+
+.bottom {
+	float: left;
+	padding-left: 5%;
+	padding-top: 20px;
+}
+
+.bottom a:link {
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+
+.bottom a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.bottom a:hover {
+	text-decoration: none;
+}
+
+img {
+	height: 30px;
+}
+
+#sponsors {
+	padding-top: 13px;
+}
+
+#nb {
+	position: absolute;
+	left: 28.5%;
+	right: 28%;
+	width: 100%;
+}
+
+/*ends navbar bottom styling*/
+
+
+/*background image*/
+body {
+	background-image: url("Images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/*background image*/
+

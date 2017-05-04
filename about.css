@@ -1,0 +1,176 @@
+#everything {
+	width: 100%;
+	height: 100%;
+}
+
+#bl1 {
+	position: absolute;
+	top: 450px;
+  	background: #f9f9f9;
+  	opacity: .7;
+  	border-left: 10px solid #C0B283;
+  	margin-right: 100px;
+  	margin-left: 100px;
+  	padding: 0.5em 10px;
+  	quotes: "\201C""\201D""\2018""\2019";
+}
+#bl1:before {
+  	color: #ccc;
+ 	content: open-quote;
+  	font-size: 4em;
+  	line-height: 0.1em;
+  	margin-right: 0.25em;
+  	vertical-align: -0.4em;
+}
+#bl1 p {
+  	display: inline;
+}
+
+body {
+	background-image: url(Images/background3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.title {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+}
+
+h1 {
+	font-size: 115px;
+	font-family: "Raleway", Arial;
+	color: #A9A9A9;
+	height: 50px;
+	text-align: center;
+
+	
+}
+/*ends title*/
+
+/*navbar top*/
+
+#navbartop {
+	margin: 0px;
+	padding-top: 0px;
+	padding: 0px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	opacity: .9;
+	background-color: white;
+	height: 50px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%
+    background-color: #f1f1f1;
+    height: 30px;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	height: 50px;
+}
+
+/*navbar right*/
+
+.fltright a:link {
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+
+.fltright a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.fltright a:hover {
+	background-color: black;
+	text-decoration: none;
+	color: white;
+	height: 50px;
+	padding-top: 17px;
+	padding-bottom: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.fltright {
+	float: right;
+	padding-left: 5%;
+	padding-right: 1%;
+	padding-top: 16px;
+}
+
+/*ends navbar right*/
+/*navbar left*/
+
+.fltleft {
+	float: left;
+	padding-left: 3%;
+	padding-top: 7px;
+}
+
+.fltleft a:link {
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+
+.fltleft a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.fltleft a:hover {
+	text-decoration: none;
+}
+
+/*ends navbar top*/
+
+
+#stuff {
+	position: absolute;
+	bottom: 20%;
+	color: white;
+	width: 20%;
+	left: 40%;
+	right: 40%;
+	font-size: 20px;
+}
+
+#bl2 {
+	position: absolute;
+	top: 775px;
+	left: 33%;
+  	background: #f9f9f9;
+  	opacity: .7;
+  	border-left: 10px solid #C0B283;
+  	margin-right: 100px;
+  	margin-left: 100px;
+  	padding: 0.5em 10px;
+  	quotes: "\201C""\201D""\2018""\2019";
+}
+#bl2:before {
+  	color: #ccc;
+ 	content: open-quote;
+  	font-size: 4em;
+  	line-height: 0.1em;
+  	margin-right: 0.25em;
+  	vertical-align: -0.4em;
+}
+#bl2 p {
+  	display: inline;
+}
